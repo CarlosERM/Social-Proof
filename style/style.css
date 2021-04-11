@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
 .attribution {
-    font-size: 11px;
+    font-size: 0,6875em;
     text-align: center;
   }
   .attribution a {
@@ -29,66 +29,66 @@ h4 {
     text-align:center;
     display:flex;
     flex-direction:column;
-    padding:75px 20px;  
+    padding: 4.6875em 1.25em;  
 }
 #header-paragraph {
-    margin:30px 0;
+    margin:1.875em 0;
     color:hsl(303, 10%, 53%);
 }
 #classification {
-    margin-top:20px;
+    margin-top:1.25em;
 }
 #classification section {
     background-color: hsl(300, 24%, 96%);
-    margin-bottom:10px;
+    margin-bottom:0.625em;
     display:flex;
     flex-direction:column;
     align-items:center;
-    border-radius:10px;
+    border-radius:0.625em;
 }
 .stars {
-    background:  url('../images/icon-star.svg') repeat-x ;
-    width:85px;
-    height:17px;
-    margin: 15px 0;
+    background:  url('../images/icon-star.svg')  space;
+    width:6.3125em;
+    height:1.0625em;
+    margin: 0.9375em 0;
 }
 #classification section h4 {
-    margin-bottom:20px;
+    margin-bottom:1.25em;
     color:hsl(300, 43%, 22%);
 
 }
 #comments {
-    margin-top:20px;
+    margin-top:1.25em;
 }
 #comments .div-comments {
     color:white;
-    border-radius:10px;
-    margin-bottom:10px;
-    padding:40px;
+    border-radius:0.625em;
+    margin-bottom:0.625em;
+    padding:2.5em;
     background-color:hsl(300, 43%, 22%);
 }
 #comments .div-comments p {
     text-align:left;
-    font-size:15px;
-    line-height: 21px;
+    font-size:0.9375em;
+    line-height: 1.3125em;
     margin:0;
 }
 .person {
     display:flex;
     justify-content:flex-start;
     align-items:center;
-    margin-bottom: 30px;
+    margin-bottom: 1.875em;
 }
 .person img {
-    width:60px;
+    width:3.75em;
     height:auto;
-    margin-right:25px;
+    margin-right:1.5625em;
     border-radius:50%
 }
 
 .person h2, span {
-    font-size:15px;
-    margin: 5px;
+    font-size:0.9375em;
+    margin: 0.3125em;
 }
 .person span {
     color:hsl(333, 80%, 67%);
