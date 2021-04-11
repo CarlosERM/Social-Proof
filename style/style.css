@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+* {
+    box-sizing:border-box;
+}
+
+body {
+    font-size:100%;
+    background: url('../images/bg-pattern-top-mobile.svg') no-repeat , url('../images/bg-pattern-bottom-mobile.svg') no-repeat ;
+    font-family: 'Spartan', sans-serif;
+ }
+h1 {
+    color:hsl(300, 43%, 22%);
+    font-weight:700;
+    margin:0;
+}
+h4 {
+    margin:0;
+}
+
+#corpo-principal {
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    padding:75px 20px;  
+}
+#header-paragraph {
+    margin:30px 0;
+    color:hsl(303, 10%, 53%);
+}
+#classification {
+    margin-top:20px;
+}
+#classification section {
+    background-color: hsl(300, 24%, 96%);
+    margin-bottom:10px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    border-radius:10px;
+}
+.stars {
+    background:  url('../images/icon-star.svg') repeat-x ;
+    width:85px;
+    height:17px;
+    margin: 15px 0;
+}
+#classification section h4 {
+    margin-bottom:20px;
+    color:hsl(300, 43%, 22%);
+
+}
+#comments {
+    margin-top:20px;
+}
+#comments .div-comments {
+    color:white;
+    border-radius:10px;
+    margin-bottom:10px;
+    padding:40px;
+    background-color:hsl(300, 43%, 22%);
+}
+#comments .div-comments p {
+    text-align:left;
+    font-size:15px;
+    line-height: 21px;
+    margin:0;
+}
+.person {
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    margin-bottom: 30px;
+}
+.person img {
+    width:60px;
+    height:auto;
+    margin-right:25px;
+    border-radius:50%
+}
+
+.person h2, span {
+    font-size:15px;
+    margin: 5px;
+}
+.person span {
+    color:hsl(333, 80%, 67%);
+
+}
+
+    @media (min-width: 576px) { 
+
+    }
+
+
+    @media (min-width: 768px) { 
+
+    }
+
+
+    @media (min-width: 992px) { 
+
+    }
+
+
+    @media (min-width: 1200px) { 
+
+    }
+
+
+    @media (min-width: 1400px) { 
+
+    }
