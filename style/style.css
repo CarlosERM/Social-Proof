@@ -23,6 +23,7 @@ h1 {
     margin:0;
 }
 h4 {
+    font-size:1em;
     margin:0;
 }
 
@@ -117,5 +118,62 @@ h4 {
 
 
     @media (min-width: 1400px) { 
+        h1 {
+            font-size:3em;
+        }
+        
+        #corpo-principal {
+            flex-flow: row wrap;
+            justify-content:space-between;
+            text-align:left;
+            padding:10em;
+        }
+        #header-big {
+            width:40%;
+        }
+        #classification {
+            width:50%;
+        }
+        #classification section {
+            flex-direction:row;
+            align-items:center;
+            width:83%;
+            padding:1em;
+            margin-bottom:3%;
+        }
+        #classification section:nth-child(1) {
+            justify-self: stretch;
+        }
+        #classification section:nth-child(2) {
+            margin-left:45.90625px;
+        }
+        #classification section:nth-child(3) {
+            margin-left:auto;
+        }
+        #classification section h4 {
+            margin:0em;
+            margin-left:2em;
 
+        }
+        .stars {
+            margin: 0 0 0 1.5em;
+        }
+        #comments {
+            margin-top:2em;
+            height:320px;
+            display:flex;
+            justify-content:space-between;
+        }
+        #comments .div-comments {
+            width:32%;
+        }
+       #comments .div-comments:nth-child(1) {
+           align-self:flex-start;
+        }
+       #comments .div-comments:nth-child(2) {
+            align-self:center;
+        }
+    #comments .div-comments:nth-child(3) {
+            align-self:flex-end;
+        }
     }
