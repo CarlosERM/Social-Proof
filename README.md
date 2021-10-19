@@ -9,16 +9,15 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 
 ### Links
 
-- Solution URL: [https://github.com/CarlosERM/3-FrontEndMEntor.git](https://github.com/CarlosERM/3-FrontEndMEntor.git)
-- Live Site URL: [https://carloserm.github.io/3-FrontEndMEntor/](https://carloserm.github.io/3-FrontEndMEntor/)
+- Solution URL: [https://github.com/CarlosERM/Social-Proof.git](https://github.com/CarlosERM/Social-Proof.git)
+- Live Site URL: [https://carloserm.github.io/Social-Proof/](https://carloserm.github.io/Social-Proof/)
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-
+- 
 ## Author
 
-- Website - [Carlos Eduardo Rocha Miranda](https://www.your-site.com)
 - Frontend Mentor - [@CarlosERM](https://www.frontendmentor.io/profile/CarlosERM)
